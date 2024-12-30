@@ -84,24 +84,28 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
+export const frontendSkillsData = [
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
-  "Redux",
+] as const;
+
+export const languages = ["JavaScript", "TypeScript", "Java"];
+
+export const backendSkillsData = [
+  "Spring",
+  "Spring boot",
+  "JPA",
+  "Oauth2",
+  "REST",
   "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MongoDB",
+  "MySQL",
+  "CI/CD",
+  "Docker",
 ] as const;
