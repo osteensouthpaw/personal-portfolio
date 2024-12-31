@@ -63,6 +63,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Ecommerce Backend",
+    githubUrl: "https://github.com/osteensouthpaw/simple-ecommerce-application",
     description:
       "An e-commerce application built with Spring Boot. It includes user authentication, product management, secure payment integration with paypal, and an admin dashboard",
     tags: ["Spring boot", "MySQL", "JPA", "JWT"],
@@ -70,13 +71,15 @@ export const projectsData = [
   },
   {
     title: "Issue Tracker",
+    githubUrl: "https://github.com/osteensouthpaw/Issue-tracker",
     description:
       "A collaborative issue-tracking system to help teams manage tasks and track project progress. It features user authentication, tags, issue assignment and intuitive user interface for efficient issue management.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Game Hub",
+    githubUrl: "https://github.com/osteensouthpaw/game-hub",
     description:
       "A dynamic React application that serves as a hub for gamers to discover and explore games. It includes features like a game search engine, detailed game information, filtering options",
     tags: ["React", "API Integration", "Tailwind"],

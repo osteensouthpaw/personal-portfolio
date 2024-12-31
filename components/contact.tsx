@@ -7,6 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import Link from "next/link";
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
@@ -37,6 +38,10 @@ export default function Contact() {
           osteenomega2@gmail.com
         </a>{" "}
         or through this form.
+        <br /> or{" "}
+        <Link href="https://confess.ngl.link/dacsr" target="_blank">
+          send <span className="underline">anonymous message</span>
+        </Link>
       </p>
 
       <form
