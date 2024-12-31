@@ -23,10 +23,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ecommerce Backend",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "An e-commerce application built with Spring Boot. It includes user authentication, product management, secure payment integration with paypal, and an admin dashboard",
+    tags: ["Spring boot", "MySQL", "JPA", "JWT"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Issue Tracker",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A collaborative issue-tracking system to help teams manage tasks and track project progress. It features user authentication, tags, issue assignment and intuitive user interface for efficient issue management.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: rmtdevImg,
   },
   {
     title: "Word Analytics",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A dynamic React application that serves as a hub for gamers to discover and explore games. It includes features like a game search engine, detailed game information, filtering options",
+    tags: ["React", "API Integration", "Tailwind"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -93,11 +93,12 @@ export const frontendSkillsData = [
   "Git",
   "Tailwind",
   "Prisma",
+  "Javascript",
+  "Typescript",
 ] as const;
 
-export const languages = ["JavaScript", "TypeScript", "Java"];
-
 export const backendSkillsData = [
+  "Java",
   "Spring",
   "Spring boot",
   "JPA",
@@ -108,4 +109,5 @@ export const backendSkillsData = [
   "MySQL",
   "CI/CD",
   "Docker",
+  "API Integration",
 ] as const;
