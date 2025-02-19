@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaJava, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -23,10 +23,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Contact",
     hash: "#contact",
@@ -36,27 +36,27 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 6 months of studying frontend development with freecodecamp. I began doing volunteering to small projects as a freelancer for free.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Backend Developer",
+    location: "Upwork",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      " • Developed and deployed scalable backend solutions using Java and Spring Boot for clients across various industries. Built secure REST APIs and integrated database solutions using PostgreSQL and MySQL. Implemented authentication and authorization systems using JWT for secure data access",
+    icon: React.createElement(FaJava),
+    date: "2023 - 2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Fiverr",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Back-end Developer Championed a full-stack web application that provides Mobile Event Verification (MEV) technology to accurately verify and document customer engagements",
+    icon: React.createElement(FaJava),
+    date: "2024",
   },
 ] as const;
 
