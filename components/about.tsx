@@ -28,17 +28,16 @@ export default function About() {
         to impactful projects that make a difference. Let’s build something
         great together! My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Spring boot, and MySQL
+          Next.js, Spring boot, and MySQL
         </span>
         . I am also familiar with TypeScript and Prisma. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a fullstack
+        <span className="font-medium">internship position</span> as a fullstack
         developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games and playing music.
+        <span className="italic">When I'm not coding</span>, I enjoy playing music.
       </p>
     </motion.section>
   );
