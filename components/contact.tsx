@@ -36,12 +36,7 @@ export default function Contact() {
         Please contact me directly at{" "}
         <a className="underline" href="mailto:osteenomega2@gmail.com">
           osteenomega2@gmail.com
-        </a>{" "}
-        or through this form.
-        <br /> or{" "}
-        <Link href="https://confess.ngl.link/dacsr" target="_blank">
-          send <span className="underline">anonymous message</span>
-        </Link>
+        </a>
       </p>
 
       <form
